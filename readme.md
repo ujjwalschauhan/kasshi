@@ -1,2 +1,2 @@
 # Kasshi Project - Assignment
-[Kasshi Link](https://ujjwalschauhan.github.io/kasshi/).
+[Kasshi](https://ujjwalschauhan.github.io/kasshi/)
