@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.792);
+  font-family: "Lugrasimo";
+}
+
+.section-row p {
+  font-family: "Lugrasimo";
+}
+
+img.card-img-top {
+  height: 200px !important;
+  object-fit: cover;
+}
+
+.section-right p {
+  border-left: 2px solid black;
+  height: 45%;
+  padding: 0 20px;
+}
+
+.navbar-logo, .foo-logo{
+  animation: spin 10s linear infinite;
+}
+.logo {
+  width: 150px;
+  height: 150px;
+  animation: spin 5s linear infinite;
+}
+.logo1 {
+  width: 300px;
+  height: 300px;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar-logo {
+  width: 70px;
+  height: 70px;
+  transition: opacity 0.5s ease-in-out;
+}
+.navbar-logo.active {
+  opacity: 1;
+}
+
+nav .logo1 {
+  width: 80px;
+  height: 80px;
+}
+
+.skip-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1100;
+  background: #56382c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.skip-button:hover {
+  background: #6e3f16;
+}
+
+#introVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.intro {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  z-index: 1100;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+#introVideo1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.heading-wrapper {
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.visible {
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+#step-4 {
+  white-space: pre-wrap;
+}
+
+.typing {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid;
+  animation: typing 5s steps(30, end), blink 0.5s step-end infinite;
+}
+
+#step-4.typing {
+  white-space: nowrap;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: black;
+  }
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.intro {
+  text-align: center;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+}
+
+.common-section {
+  padding-bottom: 50px;
+}
+
+.common-section .commont-button {
+  border-radius: 50px;
+  padding: 10px 30px;
+  display: inline-block;
+}
+
+.common-section .btn-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer .footer-logo {
+  height: 50px;
+  width: 50px;
+}
+
+footer ul li a {
+  text-decoration: none !important;
+}
+
