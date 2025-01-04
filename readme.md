@@ -1,2 +1,2 @@
-# Kasshi Project - Assignment
+# Kasshi Website
 [Kasshi](https://ujjwalschauhan.github.io/kasshi/)
